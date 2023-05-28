@@ -51,19 +51,11 @@ TIMEOUT_WORKLOAD    = 30    # Timeout in seconds between workload requests
 CLIENT_VERSION      = '4'   # Client version to send to the Server
 
 SYZYGY_WDL_PATH     = None  # Pathway to WDL Syzygy Tables
-BASE_GAMES_PER_CORE = 32    # Typical games played per-thread
+BASE_GAMES_PER_CORE = 10    # Typical games played per-thread
 FLEET_MODE          = False # Exit when there are no workloads
 
 CUSTOM_SETTINGS = {
-    'Ethereal'    : [], 'Laser'     : [],
-    'Weiss'       : [], 'Demolito'  : [],
-    'Rubichess'   : [], 'FabChess'  : [],
-    'Igel'        : [], 'Winter'    : [],
-    'Halogen'     : [], 'Stash'     : [],
-    'Seer'        : [], 'Koivisto'  : [],
-    'Drofa'       : [], 'Bit-Genie' : [],
-    'Berserk'     : [], 'Zahak'     : [],
-    'BlackMarlin' : [],
+    'KhepriChess'    : [],
 };
 
 ERRORS = {
